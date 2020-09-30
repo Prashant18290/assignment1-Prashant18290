@@ -10,6 +10,12 @@ package main;
 public class Gravity {
 	// TODO 1: Create the main method
 	public static void main(String[] args) {
+		static int gravity = 9.8;
+		Scanner sc = new Scanner(System.in);
+		int masss = sc.nextInt();
+		int height = sc.nextInt();
+		int output = mass*gravity*height;
+		System.out.println("The result is"+output);
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
